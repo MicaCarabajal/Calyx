@@ -1,26 +1,29 @@
 body{
-	background-image: url("../img/fondo.jpg");
+	/*background-image: url("../img/fondo.jpg");*/
+	background: #15AFF7;
 }
 h1{
-	color: #15F7B9;
+	color: white;
 	text-align: center;
 	font-weight: 200;
+	text-decoration: underline;
 }
 h2{
-	text-decoration: underline;
+	text-decoration: underline;/*texto subrayado*/
 	color: ##6EF715;
 	text-align: right;
 }
 p{
-	font-weight: bold;/*ancho*/
-	font-size: 12px;
+	font-weight: bold;/*fuente negrita*/
+	font-size: 15px;
 }
 ul{
 	list-style: none;/*para sacar los puntos de la lista*/
+	color: white;
 }
 a{
 	text-decoration: none;
-	color: green;
+	color: white;
 }
 img{
 	max-width: 70%;
@@ -31,9 +34,24 @@ img{
 	width: 50%;
 	float: right;
 	margin-top: 30px;
-	position: relative;/*usar el relativo siempre*/
+	position: relative;
+	color: white;
 }
 #lechuga{
+	width: 45%;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	float: left;
+	position: fixed;/*fijada*/
+	color: #fff;
+}
+#image{
+    width: 53%;
+	float: right;
+	margin-top: 35px;
+	position: relative;
+}
+#parra{
 	width: 45%;
 	margin-bottom: 20px;
 	margin-top: 30px;
